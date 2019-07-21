@@ -1,0 +1,204 @@
+body {
+	background: #F5F5F5;
+}
+
+.navbar-bg-color {
+	background: #303F9F;
+}
+
+.navbar-text-color a {
+	color: #C5CAE9;
+}
+.navbar-text-color a:hover {
+	color: #dee2f7;
+}
+.navbar-toggler {
+	color: #C5CAE9;
+}
+
+.navbar-collapse {
+	margin-right: 8%;
+}
+
+.navbar-text-color .dropdown-item , .navbar-text-color .dropdown-item:hover {
+	color: #212121;
+}
+.navbar-brand {
+	margin-left: 8%;
+}
+
+.navbar-nav .position-text {
+	margin-left: 50px;
+}
+.dropdown-nav {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+.dropdown-menu {
+	background: #303F9F;
+	min-width: 120px;
+	text-align: center;
+}
+.dropdown-menu .dropdown-nav .nav-item:hover {
+	background: #FFFFFF;
+}
+.dropdown-menu .dropdown-nav .nav-item .nav-link {
+	color: #C5CAE9;
+}
+.dropdown-menu .dropdown-nav .nav-item .nav-link:hover {
+	color: #303F9F;
+}
+.dropdown-menu a {
+	font-size: 90%;
+}
+.dropdown-menu .dropdown-item {
+	color: #C5CAE9;
+}
+.dropdown-menu .dropdown-item:hover {
+	color: #303F9F;
+}
+
+/* Projects list / Steps list */
+
+.project-list , .create-project , .edit-project , .steps-list , .create-step , .edit-step , .simple-step {
+	margin-top: 5%;
+}
+.project-list h3 {
+	margin-bottom: 2.5%;
+}
+.project-list thead , .steps-list thead {
+	background: #303F9F;
+}
+.project-list thead th , .steps-list thead th {
+	color: #C5CAE9;
+}
+
+.project-list tbody tr:hover {
+	background: #E1F5FE;
+}
+
+.steps-list h3 {
+	margin-bottom: 1.5%;
+}
+.steps-nav {
+	margin-bottom: 2%;
+}
+
+/* table */
+
+.countSteps {
+	font-weight: bold;
+	color: #01579b;
+}
+
+
+/* cards /home */
+
+.card {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.card p {
+	font-size: 110%;
+}
+
+/* card /news , card /news/single */
+
+/* /news */
+.news-list .add-news {
+	margin-top: 5%;
+}
+.news-list .card , .news-single .card {
+	margin-top: 5%;
+	border: 1px solid #303f9f;
+}
+.news-list .card-header , .news-single .card-header {
+	background: #303f9f;
+	color: #C5CAE9;
+	font-size: 110%;
+}
+.news-list .card-footer , .news-single .card-footer {
+	background: #FFFFFF;
+	border-top: none;
+	color: #C5CAE9;
+	font-size: 75%;
+}
+.news-list .card-footer .action-card {
+	float: left;
+}
+
+/* /news/signle */
+.news-single .card {
+	margin-top: 15%;
+}
+
+.news-single .card-body img {
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+/* home/admin */
+
+.home .admin-panel {
+	background: #FFFFFF;
+	margin-top: 10%;
+	padding: 0;
+	border-radius: 4px;
+	border: 1px solid #eeeeee;
+}
+.home .admin-panel h5 {
+	background: #303F9F;
+	padding: 1% 1.5%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font-family: 'Helvetica';
+	font-weight: bold;
+	color: #C5CAE9;
+}
+.home .admin-panel ul {
+	margin-top: 6%;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.home .admin-panel ul .admin-cards  {
+	background: #FFFFFF;
+	display: inline-block;
+	margin: 1%;
+	border-radius: 4px;
+	border: 1px solid #3f51b5;
+	text-align: center;
+	transition: 0.2s;
+}
+.home .admin-panel ul .admin-cards:hover {
+	background: #3f51b5;
+	transition: 0.2s;
+}
+.home .admin-panel ul .admin-cards a img {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+}
+.home .admin-panel ul .admin-cards a {
+	text-align: left;
+	font-size: 95%;
+	color: #3f51b5;
+}
+.home .admin-panel ul .admin-cards:hover a {
+	color: #FFFFFF;
+	transition: 0.25s;
+}
+.home .admin-panel ul .admin-cards span {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
+/* testy */
+
+.cd {
+	background: red;
+	margin-top: 10%;
+}
